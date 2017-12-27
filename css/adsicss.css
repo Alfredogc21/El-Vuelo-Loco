@@ -1,0 +1,211 @@
+body {
+	font-family: 'Allerta', sans-serif;
+	margin: 0px;
+}
+.button {
+	border-radius: 20px;
+	border: none; /*borra el borde del boton*/
+	background: #2B9DA9;
+	color: white;
+}
+.titulo {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 70px;
+	margin-bottom: 15px;
+	line-height: 70px;
+	margin-top: 70px;
+	-webkit-text-fill-color: #FFFFFF;
+	-webkit-text-stroke: 2px black;
+}
+.title-a {
+	font-size: 24px;
+	margin-top: 0px;
+	color: #000000;
+	text-shadow: #000000;
+}
+.title-b {
+	font-size: 50px;
+	margin bottom: 20px;
+}
+.paquetes {
+	color: #1F313C;
+	position: relative;
+ 	bottom: 100px;
+}
+.paquetes h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+.portada {
+	background-image: url('../images/background.png');
+	color: white;
+	padding: 40px;
+	position: relative;
+ 	bottom: 130px;
+}
+.redes {
+	padding: 20px;
+	position: relative;              /*el ultimo que hice*/
+ 	bottom: 10px;
+ 	left: 217px;
+}
+.portada button {
+	margin-bottom: 80px;
+}
+.menu { 
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	bottom: 100px;
+ }
+ .menu a {
+ 	text-decoration: none;
+ 	position: relative;
+ 	bottom: 120px;
+ 	color: #2B9DA9
+ }
+ .menu li{
+ 	display: inline-block;
+ 	margin-left: 30px;
+ }
+ .logotipo{
+ 	display: inline-block;
+ 	position: relative;
+ 	right: 110px;
+ 	bottom: 70px;
+ 	padding: 10px;
+ }
+ .contenedor {
+ 	width: 800px;
+ 	margin: auto;
+ }
+ .paquetesviajes {
+ 	margin: 10px 10px 30px 10px;
+ 	padding: 10px;
+ 	overflow: hidden;
+ 	border: 5px solid #2B9DA9;
+ 	border-radius: 20px;
+ }
+ .derecha {
+ 	float: right;
+ 	position: relative;
+ 	right: -1px;
+ 	bottom: 40px;
+ 	top: 1px;
+ }
+ .izquierda {
+ 	float: left;
+ 	position: relative;
+ 	right: 20px;
+ 	top: 1px;
+ }
+.paquetesdeviajes h3 {
+	font-size: 45px;
+}
+.contenedor-paquete-a h3 {
+	font-size: 40px
+}
+.paquetesdeviajes ol {
+	padding: 0px;
+	border-radius: 20px
+}
+.contenedor-paquete-a {
+	padding-left: 30px;
+}
+.contenedor-paquete-b {
+ 	margin left: 370px;
+ }
+ .header {
+ 	position: relative;
+ }
+ .footer {
+ 	background: #273b47;
+ }
+ .logoloco {
+ 	position: relative;
+ 	right: 30px;
+ }
+ .contacto img {
+ 	display: block;
+ }
+ .contacto strong {
+ 	display: block;
+ }
+ .contacto a {
+ 	color: white;
+ 	text-decoration: none;
+ 	margin: -50px 10px 10px 0px;
+ }
+.intereses label {
+	font-size: 12px;
+}
+ .contacto {
+ 	display: flex;
+ 	width: 300px;
+ 	flex-wrap: wrap;
+ 	align-items: center;
+ }
+ .footer .contenedor {
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+ .formulario {
+ 	display: flex;
+ 	width: 400px;
+ 	color: white;
+ 	padding: 50px 10px;
+ }
+ .col1, .col2 {
+ 	display: flex;
+ 	flex-direction: column;
+ }
+ .col1 {
+ 	margin-right: 25px;
+ }
+ .col2 {
+ 	align-items: flex-start;
+ }
+ .formulario label, .sexo, .intereses {
+ 	margin-bottom: 15px;
+ }
+ .sexo {
+ 	margin-top: 15px;
+ }
+ table {
+ 	width: 100%
+ }
+ th {
+ 	background: #273b47;
+ 	color: white;
+ 	padding: 10px 20px;
+ 	text-align: center;
+ }
+ td {
+ 	padding: 20px;
+ }
+ table, td, th {
+ 	border: 1px solid #273b47;
+ }
+.color-tabla th {
+ 	background: white;
+ 	color: black;
+ }
+ .posicion-tabla {
+ 	position: relative;
+ 	bottom: 50px;
+ }
+ .parrafo {
+ 	margin: 10px;
+ 	padding: 50px;
+ 	border: 1px;
+ 	position: relative;
+ 	bottom: 90px;
+ 	width: 600px;
+ 	left: 330px;
+ }
+ .avion {
+ 	position: relative;
+ 	left: 430px;
+ 	top: -130px;
+ }

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biografia de nuestra agencia</title>
+	<meta charset="utf-8"/> <!-- caracteres de idioma español -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
+	<link rel="stylesheet" href="css/adsicss.css"> <!-- css -->
+	<link href='images/favicon-image.png' rel='shortcut icon' type='image/vnd.microsoft.icon'/>
+</head>
+<body>
+	<header id="header" class="header contenedor"> <!-- cabeceras -->
+		<figure class="logotipo"> <!-- logotipo -->
+			<img src="images/logo.png" width="500" height="300" alt="logotipo"/>
+		</figure>
+		<nav class="menu"> <!-- menu -->
+			<ul> <!-- sirve para lista desordenada -->
+				<li> <!-- elementos de la lista -->
+					<a href="index.html">Inicio</a> <!-- sirve para enlaces -->
+				</li>
+				<li> <!-- elementos de la lista -->
+					<a href="index.html#paquetes">Paquetes</a>
+				</li>
+				<li>
+					<a href="noticias.html">Noticias</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+		<p class="parrafo">VUELO LOCO S.A es una de las aerolíneas de bandera colombiana,fue fundada por Edwin Fernando Londoño, es la segunda aerolinea que nacio en América y es la quinta más antigua del mundo, Sus centros de conexiones están localizados en el Aeropuerto Internacional El Dorado de Bogotá, el Aeropuerto Internacional de El Salvador en San Salvador, y el Aeropuerto Internacional Jorge Chávez, de Lima. Desde estos tres hubs opera vuelos programados y chárteres a diferentes destinos en Norteamérica, Centroamérica, El Caribe, Sudamérica y Europa.</p>
+		<img class="avion" src="images/avion.png" width="500" height="300" alt="imagen de avion"/>
+			<footer class="footer">
+	<div class="contenedor">
+	<div class="contacto">
+		<img class="logoloco" src="images/logo-white.png" alt="logotipo blanco"/>
+		<a href="tel:+573024456678"><strong>Telefono</strong><span>3024456678</span></a>
+		<a href="mailto:contacto@vueloco.com"><strong>E-mail</strong><span>elvueloco@tuagencia.com</span></a>
+		</div>
+		<form class="formulario">
+			<div class="col1">
+			<label for="nombre">Nombre</label>
+			<input type="text" required placeholder="Nombre y apellidos" id="nombre" name="nombre"/>
+			<label for="email">E-mail</label>
+			<input type="email" required placeholder="Correo de contacto" id="email" name="email" />
+			<div class="sexo">
+		<label for="mujer">
+				<input type="radio" id="mujer" checked name="sexo" value="Mujer"> Mujer
+			</label>
+			<label for="hombre">
+			<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+			</label>
+		<div class="intereses">
+			<label for="cotizacion">
+			<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion">Cotizacion
+			</label>
+			<label for="reclamos">
+			<input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+			</label>
+			<label for="comentarios">
+			<input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+			<label for="otros">
+			<input type="checkbox" id="otros" name="intereses" value="otros">Otros
+		</label>
+		</div>
+		</div>
+		</div>
+		<div class="col2">
+			<label for="comentarios">Comentarios</label>
+			<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+			<input type="submit" value="Enviar" class="button"/>
+		</div>
+	</form>
+	</div>
+	</footer>
+</body>
+</html>

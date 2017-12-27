@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>El vuelo loco</title>
+	<meta charset="utf-8"/> <!-- caracteres de idioma español -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
+	<link rel="stylesheet" href="css/adsicss.css"> <!-- css -->
+	<link href='images/favicon-image.png' rel='shortcut icon' type='image/vnd.microsoft.icon'/>
+</head>
+<body>
+	<header id="header" class="header contenedor"> <!-- cabeceras -->
+		<figure class="logotipo"> <!-- logotipo -->
+			<img src="images/logo.png" width="500" height="300" alt="logotipo"/>
+		</figure>
+		<nav class="menu"> <!-- menu -->
+			<ul> <!-- sirve para lista desordenada -->
+				<li> <!-- elementos de la lista -->
+					<a href="index.html">Inicio</a> <!-- sirve para enlaces -->
+				</li>
+				<li> <!-- elementos de la lista -->
+					<a href="#paquetes">Paquetes</a>
+				</li>
+				<li>
+					<a href="noticias.html">Noticias</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section id="portada" class="portada"><!-- portada -->
+	<div class="contenedor">
+		<h1 class="titulo">El vuelo loco</h1> <!-- titulo -->
+		<h3 class="title-a">La mejor agencia de viajes del pais</h3>
+		<input type="submit" class="button" value="Conoce mas" onclick = "location='conoce-mas.html'"/><!-- boton -->
+	</div>
+	<div class="redes">
+		<a href='https://twitter.com/' target='_blank'><img alt='Twitter' src='http://3.bp.blogspot.com/-wlwaJJG-eOY/UiXnHS2jLsI/AAAAAAAAByQ/I2tLyZDLNL4/s1600/Twitter+NEW.pn' title='Twitter'/></a>
+		<a href='https://www.facebook.com/' target='_blank'><img alt='Facebook' src='http://2.bp.blogspot.com/-q_Tm1PpPfHo/UiXnJo5l-VI/AAAAAAAABzU/MKdrVYZjF0c/s1600/face.png' title='Facebook'/></a>
+		<a href='https://plus.google.com/' target='_blank'><img alt='Google Plus' src='http://3.bp.blogspot.com/-fnL839vxuao/UiXnFfyN17I/AAAAAAAABxc/VvcXJlZ65Ko/s1600/Google%252B+alt.png' title='Google Plus'/></a>
+		<a href='https://co.linkedin.com/' target='_blank'><img alt='LinkedIn' src='http://4.bp.blogspot.com/-6fSS1W1pV5U/UiXnKWhitdI/AAAAAAAABzo/iQ_4U_eJ67o/s1600/linkedin_logo_ok.png' title='LinkedIn'/></a>
+		<a href='https://www.instagram.com/' target='_blank'><img alt='Instagram' src='http://2.bp.blogspot.com/-kQop92g4NsM/UidPJ06ER1I/AAAAAAAACAA/0mj0jK5hhXM/s1600/instagram2.png' title='Instagram'/></a>
+		<a href='https://join.skype.com/' target='_blank'><img alt='Skype' src='http://2.bp.blogspot.com/-ZBLrQyo23_8/UiXnGgefFII/AAAAAAAAByI/eCBHV2jiCy4/s1600/Skype.png' title='Skype'/></a>
+		<a href='https://www.youtube.com/' target='_blank'><img alt='Youtube' src='http://4.bp.blogspot.com/-WvN3y-sXv_Y/UiXnJDRAAhI/AAAAAAAABzA/uM7s7A_Y5qc/s1600/Youtube+alt+2.png' title='Youtube'/></a>
+		<a href='mailto:elvueloco@tuagencia.com' target='_blank'><img alt='Email' src='http://2.bp.blogspot.com/-t8bRdqt67iE/UiXnF39QD8I/AAAAAAAABxY/RxGC9wr-GxA/s1600/Mail.png' title='Email'/></a>
+	</div>		
+</section> <!-- Dividir secciones -->
+	<section id="paquetes" class="paquetes contenedor"><!-- paquetes -->
+	<h2>Nuestros paquetes de viajes</h2><!-- titulo -->
+	<article class="paquetesviajes">	<!-- paquetesviajes -->
+		<img class="derecha" src="images/imagen1.png" alt="Paquetes de viajes" width="350"/>
+		<div class="contenedor-paquete-a"> 
+			<h3>Europa</h3>
+				<ol>
+					<li>viaje para dos personas</li>
+					<li>hospedada en hotel cinco estrellas</li>
+					<li>Comida incluida</li>
+					<li>Transporte propio</li>
+					<li>Guia turistica por si la necesitan</li>
+				</ol> <!-- etiqueta de lista ordenada -->
+		</div>
+	</article>	<!-- para poner pedazos para colocar contenido especifico independiente -->
+	<article class="paquetesviajes">	<!-- guitarra 2 -->	
+		<img class="izquierda" src="images/imagen2.png" alt="Paquetes de viajes" width="360"/>
+		<div class="contenedor-paquete-b">
+			<h3 class="title-b">Cuba y Panama</h3>
+				<ol>
+					<li>Viajes para tres personas</li>
+					<li>Comida incluida</li>
+					<li>Traductor por si lo requieren</li>
+					<li>Hospedada en hotel cinco estrellas</li>
+					<li>comida incluida</li>
+					<li>Mapa de los lugares turisticos</li>
+				</ol>
+			</div>
+		</article>
+	</section>
+	<footer class="footer">
+	<div class="contenedor">
+	<div class="contacto">
+		<img class="logoloco" src="images/logo-white.png" alt="logotipo blanco"/>
+		<a href="tel:+573024456678"><strong>Telefono</strong><span>3024456678</span></a>
+		<a href="mailto:contacto@vueloco.com"><strong>E-mail</strong><span>elvueloco@tuagencia.com</span></a>
+		</div>
+		<form class="formulario">
+			<div class="col1">
+			<label for="nombre">Nombre</label>
+			<input type="text" required placeholder="Nombre y apellidos" id="nombre" name="nombre"/>
+			<label for="email">E-mail</label>
+			<input type="email" required placeholder="Correo de contacto" id="email" name="email" />
+			<div class="sexo">
+		<label for="mujer">
+				<input type="radio" id="mujer" checked name="sexo" value="Mujer"> Mujer
+			</label>
+			<label for="hombre">
+			<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+			</label>
+		<div class="intereses">
+			<label for="cotizacion">
+			<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion">Cotizacion
+			</label>
+			<label for="reclamos">
+			<input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+			</label>
+			<label for="comentarios">
+			<input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+			<label for="otros">
+			<input type="checkbox" id="otros" name="intereses" value="otros">Otros
+		</label>
+		</div>
+		</div>
+		</div>
+		<div class="col2">
+			<label for="comentarios">Comentarios</label>
+			<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+			<input type="submit" value="Enviar" class="button"/>
+		</div>
+	</form>
+	</div>
+	</footer>
+</body>
+</html>

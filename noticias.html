@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Noticias</title>
+	<meta charset="utf-8"/> <!-- caracteres de idioma español -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta" rel="stylesheet">
+	<link rel="stylesheet" href="css/adsicss.css"> <!-- css -->
+	<link href='images/favicon-image.png' rel='shortcut icon' type='image/vnd.microsoft.icon'/>
+</head>
+<body>
+	<header id="header" class="header contenedor"> <!-- cabeceras -->
+		<figure class="logotipo"> <!-- logotipo -->
+			<img src="images/logo.png" width="500" height="300" alt="logotipo"/>
+		</figure>
+		<nav class="menu"> <!-- menu -->
+			<ul> <!-- sirve para lista desordenada -->
+				<li> <!-- elementos de la lista -->
+					<a href="index.html">Inicio</a> <!-- sirve para enlaces -->
+				</li>
+				<li> <!-- elementos de la lista -->
+					<a href="index.html#paquetes">Paquetes</a>
+				</li>
+				<li>
+					<a href="noticias.html">Noticias</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="tabla">
+		<div class="contenedor">		
+		<table class="posicion-tabla">
+			<thead>
+				<tr>
+					<th>Viajes de salida</th>
+					<th>Horario</th>
+					<th>Chima</th>
+				</tr>
+			</thead>
+			<tbody class="color-tabla">
+				<tr>
+					<th>Bogota</th>
+					<th>3:00 PM</th>
+					<th>20 ºC</th>
+				</tr>
+				<tr>
+					<th>Estados Unidos</th>
+					<th>4:00 PM</th>
+					<th>10 ºC</th>
+				</tr>
+				<tr>
+					<th>Medellin</th>
+					<th>4:40 PM</th>
+					<th>26 ºC</th>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+	</section>
+		<footer class="footer">
+	<div class="contenedor">
+	<div class="contacto">
+		<img class="logoloco" src="images/logo-white.png" alt="logotipo blanco"/>
+		<a href="tel:+573024456678"><strong>Telefono</strong><span>3024456678</span></a>
+		<a href="mailto:contacto@vueloco.com"><strong>E-mail</strong><span>elvueloco@tuagencia.com</span></a>
+		</div>
+		<form class="formulario">
+			<div class="col1">
+			<label for="nombre">Nombre</label>
+			<input type="text" required placeholder="Nombre y apellidos" id="nombre" name="nombre"/>
+			<label for="email">E-mail</label>
+			<input type="email" required placeholder="Correo de contacto" id="email" name="email" />
+			<div class="sexo">
+		<label for="mujer">
+				<input type="radio" id="mujer" checked name="sexo" value="Mujer"> Mujer
+			</label>
+			<label for="hombre">
+			<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+			</label>
+		<div class="intereses">
+			<label for="cotizacion">
+			<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion">Cotizacion
+			</label>
+			<label for="reclamos">
+			<input type="checkbox" id="reclamos" name="intereses" value="reclamos">Reclamos
+			</label>
+			<label for="comentarios">
+			<input type="checkbox" id="comentarios" name="intereses" value="comentarios">Comentarios
+			<label for="otros">
+			<input type="checkbox" id="otros" name="intereses" value="otros">Otros
+		</label>
+		</div>
+		</div>
+		</div>
+		<div class="col2">
+			<label for="comentarios">Comentarios</label>
+			<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+			<input type="submit" value="Enviar" class="button"/>
+		</div>
+	</form>
+	</div>
+	</footer>
+</body>
+</html>
